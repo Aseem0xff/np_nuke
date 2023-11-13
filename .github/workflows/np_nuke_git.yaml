@@ -2,7 +2,7 @@ name: NP Nuke Git
 on:
   workflow_dispatch:
   schedule:
-    - cron: "30 03 * * *" #( 03:30 AM UTC --> 09:15 AM Morning )
+    - cron: "30 02 * * *" #( 02:30 AM UTC --> 08:15 AM Morning )
 #------------------------------------------------------------------------------------#  
 jobs:
   Initialize:
